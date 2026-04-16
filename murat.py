@@ -82,7 +82,7 @@ if 'result' not in st.session_state: st.session_state.result = None
 # GİRİŞ / KAYIT EKRANI
 if not st.session_state.auth:
     st.title("🎵 Şarkılar Seni Söyler")
-    st.markdown("### BTÜ Bulut Bilişim Sunumu")
+    st.markdown("### Bulut Bilişim Sunumu")
     
     tab_login, tab_register = st.tabs(["🔐 Giriş Yap", "📝 Kayıt Ol"])
     
